@@ -5,6 +5,8 @@ from flask import Flask, request, jsonify
 
 
 app = Flask(__name__)
+name = "RithickA/"
+name = "RithickB/"
 
 model = joblib.load('model.joblib')   # Loading the saved model
 vectorizer = joblib.load('tf_idf.joblib')  # Loading the saved TF-IDF vectorizer 
